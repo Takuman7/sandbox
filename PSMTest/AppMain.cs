@@ -19,7 +19,9 @@ namespace PSMTest
 			while (true) {
 				SystemEvents.CheckEvents ();
 				Update ();
+				
 				Render ();
+				// test
 			}
 		}
 
